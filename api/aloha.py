@@ -10,6 +10,6 @@ class handler(BaseHTTPRequestHandler):
     self.end_headers()
 
     message = self.path
-    message = f"Aloha {friend}"
+    # message = f"Aloha {friend}"
     self.wfile.write(message.encode())
     return
