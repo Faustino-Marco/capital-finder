@@ -9,6 +9,9 @@ class handler(BaseHTTPRequestHandler):
     self.send_header('Content-type', 'text/plain')
     self.end_headers()
 
+    url_components = parse.urlsplit(self.path)
+    
+
     message = self.path
     # message = f"Aloha {friend}"
     self.wfile.write(message.encode())
