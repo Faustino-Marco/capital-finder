@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler
-from datetime import datetime
+
 from urllib import parse
 
 class handler(BaseHTTPRequestHandler):
