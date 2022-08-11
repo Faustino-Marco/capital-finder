@@ -8,7 +8,7 @@
 
 ### Links and Resources
 - back-end server url: tbd
-- front-end application: tbd
+- front-end application: [Vercel Deployment](https://capital-finder-faustino-marco.vercel.app/api/capital_finder?country=Peru)
 
 ### Setup
 - Built in VS Code
