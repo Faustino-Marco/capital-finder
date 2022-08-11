@@ -1,6 +1,5 @@
 from ast import parse
 from http.server import BaseHTTPRequestHandler
-from datetime import datetime
 from urllib import parse
 import requests
 
@@ -30,7 +29,7 @@ class handler(BaseHTTPRequestHandler):
 
         cap_cities.append(cap_name)
 
-      string_cap = str(cap_cities)
+     
       country = query_dict["country"]
       message = f"The capital of {country} is {cap_cities[0][0]}."
 
@@ -45,7 +44,7 @@ class handler(BaseHTTPRequestHandler):
 
         home_country.append(country_name)
 
-      string_country = str(home_country)
+      
       city = query_dict["capital"]
       message = f"{city} is the capital of {country_name}."
     
